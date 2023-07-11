@@ -1,3 +1,4 @@
+/* all */
 *{
   margin: 0px;
   padding: 0px;
@@ -6,6 +7,35 @@ body{
   margin: 2px;
   padding: 2px;
 }
-h1{
-  color: red;
+/* button-part */
+.btn-primary{
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+background: #E55473;
+color:white;
+border: none;
+}
+/* header-part */
+header{
+  height: 50vh;
+  background-color: bisque;
+}
+.header-container{
+  display: flex;
+  justify-content: space-around;
+}
+/* head-left-part */
+.head-left{
+  align-items: center;
+  width: 50%;
+  margin-top: 80px;
+}
+.head-left h3{
+  font-size: 50px;
+  color:black;
+}
+.head-right img{
+  align-items: center;
+  height: 50vh;
 }
