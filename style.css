@@ -111,9 +111,7 @@ background: rgba(167, 33, 98, 0.15);
   gap: 10px;
 }
 /* part 5 */
-.part-5{
- 
-}
+
 .part-5{
 
   justify-content: center;
@@ -125,5 +123,29 @@ background: rgba(167, 33, 98, 0.15);
   background-image: url('./asset/Rectangle 9.png');
   background-repeat: no-repeat;
 }
+/* my create part  */
+.my-creation{
+  height: 40vh;
+  width: 40%;
+  margin: auto; 
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  margin-top: 20px;
+}
+table{
+  border-collapse: collapse;
+}
+td{
+  border: 1px solid black;
+  padding: 5px 10px;
+}
+#table{
+  margin-left: 120px;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+}
+
 
 
