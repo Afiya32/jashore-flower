@@ -35,7 +35,36 @@ header{
   font-size: 50px;
   color:black;
 }
+/* head-right-part */
 .head-right img{
   align-items: center;
   height: 50vh;
+}
+/* main-part-1 */
+main .part-1{
+  height: 25vh;
+  align-items: center;
+  width: 100%;
+}
+main .p-1-container{
+  align-items: center;
+  text-align: center;
+  margin-top: 25px;
+  padding: 10px;
+}
+/* main-part-2 */
+.p-2-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 20vh;}
+  .img-contain{
+    align-items: center;
+    text-align: center;
+  }
+  .img-contain img{
+ 
+    border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+    
 }
