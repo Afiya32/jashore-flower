@@ -4,7 +4,8 @@
   padding: 0px;
 }
 body{
-  margin: 2px;
+  width: 1680px;
+  margin: auto;
   padding: 2px;
 }
 /* button-part */
@@ -15,6 +16,11 @@ body{
 background: #E55473;
 color:white;
 border: none;
+transition: 2;
+}
+.btn-primary:hover{
+  background: rgb(110, 101, 101);
+  color: rgb(177, 24, 24);
 }
 /* header-part */
 header{
@@ -53,18 +59,71 @@ main .p-1-container{
   padding: 10px;
 }
 /* main-part-2 */
+.part-2{
+  height: 60vh;
+  width: 80%;
+  margin: auto;
+  background: white;
+}
 .p-2-container{
   display: flex;
   align-items: center;
   justify-content: space-around;
-  height: 20vh;}
+ }
   .img-contain{
     align-items: center;
     text-align: center;
+   
   }
   .img-contain img{
- 
     border-radius: 300px 300px 0px 0px;
 background: rgba(167, 33, 98, 0.15);
     
 }
+/* main part 3 */
+.part-3{
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  background: wheat;
+  height: 50vh;
+}
+.p-3-left{
+  text-align: center;
+}
+/* main part 4 */
+.part-4{
+  height: 75vh;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+.tittle-part{
+  margin: 30px;
+}
+.tittle-part h2{
+  margin-top: 40px;
+}
+.tittle-part p{
+  margin-top: 20px;
+}
+.photo-part{
+  gap: 10px;
+}
+/* part 5 */
+.part-5{
+ 
+}
+.part-5{
+
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  background-image: url('./asset/Rectangle 9.png');
+  background-repeat: no-repeat;
+}
+
+
